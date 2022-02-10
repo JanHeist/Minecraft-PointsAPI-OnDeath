@@ -1,0 +1,14 @@
+main: dev.janheist.pointsonkill.PointsOnKillMain
+name: PointsOnKill
+version: '1.0'
+description: Erhalte Punkte beim Kill
+author: Mexykaner aka. Jan Heist
+loadbefore:
+  - PointsAPI
+commands:
+  pok:
+    description: Setzen der Variablen
+    usage: /pok [enable, disable, points 50, info]
+    aliases:
+      - pointsonkill
+      - killpoints
